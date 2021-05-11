@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ReportGen.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="eSanteWorkFlowManager_LetterGen_ReportExecutionService_OrganizationService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://pidev.api.crm.dynamics.com/XRMServices/2011/Organization.svc</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

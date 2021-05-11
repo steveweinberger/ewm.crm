@@ -1,0 +1,63 @@
+<visualization>
+  <visualizationid>{1e697c8e-9a6f-df11-986c-00155d2e3002}</visualizationid>
+  <name>Today's Target Vs. Actuals (Money)</name>
+  <description>Shows the actual against the linearly computed target as of today for revenue goals.</description>
+  <primaryentitytypecode>goal</primaryentitytypecode>
+  <datadescription>
+    <datadefinition>
+      <fetchcollection>
+        <fetch mapping="logical" aggregate="false">
+          <entity name="goal">
+            <attribute name="actualmoney" />
+            <attribute name="computedtargetasoftodaymoney" />
+          </entity>
+        </fetch>
+      </fetchcollection>
+      <categorycollection>
+        <category>
+          <measurecollection>
+            <measure alias="actualmoney" />
+          </measurecollection>
+          <measurecollection>
+            <measure alias="computedtargetasoftodaymoney" />
+          </measurecollection>
+        </category>
+      </categorycollection>
+    </datadefinition>
+  </datadescription>
+  <presentationdescription>
+    <Chart>
+      <Series>
+        <Series Color="91, 151, 213" BackSecondaryColor="112,142,50" Font="{0}, 9.5px" LabelForeColor="59, 59, 59" CustomProperties="MaxPixelPointWidth=30, MinPixelPointWidth=10">
+          <SmartLabelStyle Enabled="True" />
+          <Points />
+        </Series>
+        <Series MarkerBorderWidth="0" MarkerBorderColor="142,116,178" ChartType="Point" MarkerStyle="triangle" MarkerColor="0,0,0" MarkerSize="8">
+          <SmartLabelStyle Enabled="True" />
+        </Series>
+      </Series>
+      <ChartAreas>
+        <ChartArea BorderColor="White" BorderDashStyle="Solid">
+          <AxisY LabelAutoFitMinFontSize="8" TitleForeColor="59, 59, 59" TitleFont="{0}, 10.5px" LineColor="165, 172, 181">
+            <MajorGrid LineColor="239, 242, 246" />
+            <MajorTickMark LineColor="165, 172, 181" />
+            <LabelStyle Font="{0}, 10.5px" ForeColor="59, 59, 59" />
+          </AxisY>
+          <AxisX LabelAutoFitMinFontSize="8" TitleForeColor="59, 59, 59" TitleFont="{0}, 10.5px" LineColor="165, 172, 181">
+            <MajorGrid Enabled="False" />
+            <MajorTickMark Enabled="False" />
+            <LabelStyle Font="{0}, 10.5px" ForeColor="59, 59, 59" />
+          </AxisX>
+        </ChartArea>
+      </ChartAreas>
+      <Legends>
+        <Legend Alignment="Center" LegendStyle="Table" Docking="Bottom" Font="{0}, 11px" ShadowColor="0, 0, 0, 0" ForeColor="59,59,59"></Legend>
+      </Legends>
+      <Titles>
+        <Title Alignment="TopLeft" DockingOffset="-3" Font="{0}, 13px" ForeColor="59, 59, 59"></Title>
+      </Titles>
+      <BorderSkin PageColor="Control" BackColor="CornflowerBlue" BackSecondaryColor="CornflowerBlue" />
+    </Chart>
+  </presentationdescription>
+  <isdefault>false</isdefault>
+</visualization>

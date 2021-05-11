@@ -1,0 +1,4125 @@
+{
+  "_pluginTypes": [
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "bcfb874b-7451-4fe4-b4e5-04b9ef5981a5",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "SettingsAttributeValidationPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"7a697b9f-1fbe-4fef-8b63-593993671f8b"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"bcfb874b-7451-4fe4-b4e5-04b9ef5981a5"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.SettingsAttributeValidationPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.SettingsAttributeValidationPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "3140bb93-ec3d-4770-96e9-0503b7b736c3",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "GlobalActiveStagePlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"2b7b2eea-671f-4b24-a392-64483119ff0c"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"3140bb93-ec3d-4770-96e9-0503b7b736c3"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.GlobalActiveStagePlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.GlobalActiveStagePlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "5d611bf1-cd24-4c7e-890a-07ed42952f4e",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "QueueItemRoutePostOperationPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"b4c09582-bfaa-4284-8855-e5ca233f0f5c"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"5d611bf1-cd24-4c7e-890a-07ed42952f4e"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.QueueItemRoutePostOperationPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.QueueItemRoutePostOperationPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "0622fe84-a0dc-4ec5-b4d8-0b7b029e15d1",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "StateSyncPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"c21b9ac6-75a5-41c3-a065-3329b2f285b7"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"0622fe84-a0dc-4ec5-b4d8-0b7b029e15d1"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.StateSyncPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.StateSyncPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [
+        {
+          "_images": [],
+          "LogicalName": "sdkmessageprocessingstep",
+          "SdkMessageFilterPrimaryObjectTypeCode": "transactioncurrency",
+          "SdkMessageFilterSecondaryObjectTypeCode": "none",
+          "Id": "4919f020-8eac-41f1-b17f-82909545406e",
+          "Attributes": [
+            {
+              "Key": "invocationsource",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+            },
+            {
+              "Key": "stage",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":10}}
+            },
+            {
+              "Key": "customizationlevel",
+              "Value": {"$type":"System.Int32","$value":0}
+            },
+            {
+              "Key": "createdon",
+              "Value": "2016-05-03T16:31:34Z"
+            },
+            {
+              "Key": "configuration",
+              "Value": "\u003cMethodInfo\u003e\u003cMethodName\u003eRetrieveExchangeRate\u003c/MethodName\u003e\u003cDeclaringType\u003eMicrosoft.Crm.ObjectModel.TransactionCurrencyService,Microsoft.Crm.ObjectModel\u003c/DeclaringType\u003e\u003cInputMappings\u003e\u003cInput\u003e\u003cName\u003eTransactionCurrencyId\u003c/Name\u003e\u003c/Input\u003e\u003cInput\u003e\u003cName\u003eExecutionContext()\u003c/Name\u003e\u003c/Input\u003e\u003c/InputMappings\u003e\u003cOutputMappings\u003e\u003cField\u003e\u003cName\u003eExchangeRate\u003c/Name\u003e\u003cValue\u003ereturn-value\u003c/Value\u003e\u003cClrFormatter\u003eSystem.Decimal\u003c/ClrFormatter\u003e\u003c/Field\u003e\u003c/OutputMappings\u003e\u003c/MethodInfo\u003e"
+            },
+            {
+              "Key": "statecode",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+            },
+            {
+              "Key": "sdkmessagefilterid",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"bb434168-894c-430f-9b40-60e4035c2d1d"},"LogicalName":"sdkmessagefilter","KeyAttributes":[]}
+            },
+            {
+              "Key": "plugintypeid",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"29efe3a5-047c-40a3-b89c-2787eff38eee"},"LogicalName":"sdkmessagefilter","Name":"InternalOperation","KeyAttributes":[]}
+            },
+            {
+              "Key": "rank",
+              "Value": {"$type":"System.Int32","$value":0}
+            },
+            {
+              "Key": "sdkmessageid",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"126075c5-c77f-44fd-bb7d-3457a9168cee"},"LogicalName":"sdkmessage","Name":"RetrieveExchangeRate","KeyAttributes":[]}
+            },
+            {
+              "Key": "asyncautodelete",
+              "Value": {"$type":"System.Boolean","$value":false}
+            },
+            {
+              "Key": "name",
+              "Value": "ObjectModel Implementation"
+            },
+            {
+              "Key": "sdkmessageprocessingstepid",
+              "Value": {"$type":"System.Guid","$value":"4919f020-8eac-41f1-b17f-82909545406e"}
+            },
+            {
+              "Key": "solutionid",
+              "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+            },
+            {
+              "Key": "ismanaged",
+              "Value": {"$type":"System.Boolean","$value":true}
+            },
+            {
+              "Key": "ishidden",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.BooleanManagedProperty, Microsoft.Xrm.Sdk","Value":{"$type":"System.Boolean","$value":true},"CanBeChanged":{"$type":"System.Boolean","$value":true},"ManagedPropertyLogicalName":"ishidden"}
+            },
+            {
+              "Key": "supporteddeployment",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":2}}
+            },
+            {
+              "Key": "mode",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+            },
+            {
+              "Key": "sdkmessageprocessingstepidunique",
+              "Value": {"$type":"System.Guid","$value":"17e062b3-27d5-4a56-8cb5-861759cc1428"}
+            },
+            {
+              "Key": "modifiedby",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+            },
+            {
+              "Key": "statuscode",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+            },
+            {
+              "Key": "iscustomizable",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.BooleanManagedProperty, Microsoft.Xrm.Sdk","Value":{"$type":"System.Boolean","$value":false},"CanBeChanged":{"$type":"System.Boolean","$value":true},"ManagedPropertyLogicalName":"iscustomizableanddeletable"}
+            },
+            {
+              "Key": "modifiedonbehalfby",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+            },
+            {
+              "Key": "modifiedon",
+              "Value": "2016-05-03T16:31:34Z"
+            },
+            {
+              "Key": "introducedversion",
+              "Value": "5.0.0.0"
+            },
+            {
+              "Key": "componentstate",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+            },
+            {
+              "Key": "eventhandler",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"29efe3a5-047c-40a3-b89c-2787eff38eee"},"LogicalName":"plugintype","Name":"Microsoft.Crm.Extensibility.InternalOperationPlugin","KeyAttributes":[]}
+            },
+            {
+              "Key": "createdonbehalfby",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+            },
+            {
+              "Key": "createdby",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+            },
+            {
+              "Key": "organizationid",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+            },
+            {
+              "Key": "canusereadonlyconnection",
+              "Value": {"$type":"System.Boolean","$value":true}
+            }
+          ],
+          "FormattedValues": [
+            {
+              "Key": "invocationsource",
+              "Value": "Parent"
+            },
+            {
+              "Key": "stage",
+              "Value": "Pre-validation"
+            },
+            {
+              "Key": "customizationlevel",
+              "Value": "0"
+            },
+            {
+              "Key": "createdon",
+              "Value": "5/3/2016 9:31 AM"
+            },
+            {
+              "Key": "statecode",
+              "Value": "Enabled"
+            },
+            {
+              "Key": "rank",
+              "Value": "0"
+            },
+            {
+              "Key": "asyncautodelete",
+              "Value": "No"
+            },
+            {
+              "Key": "ismanaged",
+              "Value": "Managed"
+            },
+            {
+              "Key": "ishidden",
+              "Value": "True"
+            },
+            {
+              "Key": "supporteddeployment",
+              "Value": "Both"
+            },
+            {
+              "Key": "mode",
+              "Value": "Synchronous"
+            },
+            {
+              "Key": "statuscode",
+              "Value": "Enabled"
+            },
+            {
+              "Key": "iscustomizable",
+              "Value": "False"
+            },
+            {
+              "Key": "modifiedon",
+              "Value": "5/3/2016 9:31 AM"
+            },
+            {
+              "Key": "componentstate",
+              "Value": "Published"
+            },
+            {
+              "Key": "canusereadonlyconnection",
+              "Value": "Yes"
+            }
+          ],
+          "RelatedEntities": [],
+          "KeyAttributes": []
+        },
+        {
+          "_images": [],
+          "LogicalName": "sdkmessageprocessingstep",
+          "SdkMessageFilterPrimaryObjectTypeCode": "transactioncurrency",
+          "SdkMessageFilterSecondaryObjectTypeCode": "none",
+          "Id": "1aa6c36e-ce19-4033-b851-ff0a413c89f2",
+          "Attributes": [
+            {
+              "Key": "invocationsource",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+            },
+            {
+              "Key": "stage",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":10}}
+            },
+            {
+              "Key": "customizationlevel",
+              "Value": {"$type":"System.Int32","$value":0}
+            },
+            {
+              "Key": "createdon",
+              "Value": "2016-05-03T16:31:34Z"
+            },
+            {
+              "Key": "configuration",
+              "Value": "\u003cMethodInfo\u003e\u003cMethodName\u003eDoRetrieveExchangeRate\u003c/MethodName\u003e\u003cDeclaringType\u003eMicrosoft.Crm.ObjectModel.TransactionCurrencyService,Microsoft.Crm.ObjectModel\u003c/DeclaringType\u003e\u003cInputMappings\u003e\u003cInput\u003e\u003cName\u003eTransactionCurrencyId\u003c/Name\u003e\u003c/Input\u003e\u003cInput\u003e\u003cName\u003eExecutionContext()\u003c/Name\u003e\u003c/Input\u003e\u003c/InputMappings\u003e\u003cOutputMappings\u003e\u003cField\u003e\u003cName\u003eExchangeRate\u003c/Name\u003e\u003cValue\u003ereturn-value\u003c/Value\u003e\u003cClrFormatter\u003eSystem.Decimal\u003c/ClrFormatter\u003e\u003c/Field\u003e\u003c/OutputMappings\u003e\u003c/MethodInfo\u003e"
+            },
+            {
+              "Key": "statecode",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+            },
+            {
+              "Key": "sdkmessagefilterid",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"bb434168-894c-430f-9b40-60e4035c2d1d"},"LogicalName":"sdkmessagefilter","KeyAttributes":[]}
+            },
+            {
+              "Key": "plugintypeid",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"29efe3a5-047c-40a3-b89c-2787eff38eee"},"LogicalName":"sdkmessagefilter","Name":"InternalOperation","KeyAttributes":[]}
+            },
+            {
+              "Key": "rank",
+              "Value": {"$type":"System.Int32","$value":0}
+            },
+            {
+              "Key": "sdkmessageid",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"126075c5-c77f-44fd-bb7d-3457a9168cee"},"LogicalName":"sdkmessage","Name":"RetrieveExchangeRate","KeyAttributes":[]}
+            },
+            {
+              "Key": "asyncautodelete",
+              "Value": {"$type":"System.Boolean","$value":false}
+            },
+            {
+              "Key": "name",
+              "Value": "ObjectModel Implementation"
+            },
+            {
+              "Key": "sdkmessageprocessingstepid",
+              "Value": {"$type":"System.Guid","$value":"1aa6c36e-ce19-4033-b851-ff0a413c89f2"}
+            },
+            {
+              "Key": "solutionid",
+              "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+            },
+            {
+              "Key": "ismanaged",
+              "Value": {"$type":"System.Boolean","$value":true}
+            },
+            {
+              "Key": "ishidden",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.BooleanManagedProperty, Microsoft.Xrm.Sdk","Value":{"$type":"System.Boolean","$value":true},"CanBeChanged":{"$type":"System.Boolean","$value":true},"ManagedPropertyLogicalName":"ishidden"}
+            },
+            {
+              "Key": "supporteddeployment",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":2}}
+            },
+            {
+              "Key": "mode",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+            },
+            {
+              "Key": "sdkmessageprocessingstepidunique",
+              "Value": {"$type":"System.Guid","$value":"06cd6de2-4cd8-4f38-82d1-46c7e86bdf02"}
+            },
+            {
+              "Key": "modifiedby",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+            },
+            {
+              "Key": "statuscode",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+            },
+            {
+              "Key": "iscustomizable",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.BooleanManagedProperty, Microsoft.Xrm.Sdk","Value":{"$type":"System.Boolean","$value":false},"CanBeChanged":{"$type":"System.Boolean","$value":true},"ManagedPropertyLogicalName":"iscustomizableanddeletable"}
+            },
+            {
+              "Key": "modifiedonbehalfby",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+            },
+            {
+              "Key": "modifiedon",
+              "Value": "2016-05-03T16:31:34Z"
+            },
+            {
+              "Key": "introducedversion",
+              "Value": "5.0.0.0"
+            },
+            {
+              "Key": "componentstate",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+            },
+            {
+              "Key": "eventhandler",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"29efe3a5-047c-40a3-b89c-2787eff38eee"},"LogicalName":"plugintype","Name":"Microsoft.Crm.Extensibility.InternalOperationPlugin","KeyAttributes":[]}
+            },
+            {
+              "Key": "createdonbehalfby",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+            },
+            {
+              "Key": "createdby",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+            },
+            {
+              "Key": "organizationid",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+            },
+            {
+              "Key": "canusereadonlyconnection",
+              "Value": {"$type":"System.Boolean","$value":true}
+            }
+          ],
+          "FormattedValues": [
+            {
+              "Key": "invocationsource",
+              "Value": "Child"
+            },
+            {
+              "Key": "stage",
+              "Value": "Pre-validation"
+            },
+            {
+              "Key": "customizationlevel",
+              "Value": "0"
+            },
+            {
+              "Key": "createdon",
+              "Value": "5/3/2016 9:31 AM"
+            },
+            {
+              "Key": "statecode",
+              "Value": "Enabled"
+            },
+            {
+              "Key": "rank",
+              "Value": "0"
+            },
+            {
+              "Key": "asyncautodelete",
+              "Value": "No"
+            },
+            {
+              "Key": "ismanaged",
+              "Value": "Managed"
+            },
+            {
+              "Key": "ishidden",
+              "Value": "True"
+            },
+            {
+              "Key": "supporteddeployment",
+              "Value": "Both"
+            },
+            {
+              "Key": "mode",
+              "Value": "Synchronous"
+            },
+            {
+              "Key": "statuscode",
+              "Value": "Enabled"
+            },
+            {
+              "Key": "iscustomizable",
+              "Value": "False"
+            },
+            {
+              "Key": "modifiedon",
+              "Value": "5/3/2016 9:31 AM"
+            },
+            {
+              "Key": "componentstate",
+              "Value": "Published"
+            },
+            {
+              "Key": "canusereadonlyconnection",
+              "Value": "Yes"
+            }
+          ],
+          "RelatedEntities": [],
+          "KeyAttributes": []
+        }
+      ],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "29efe3a5-047c-40a3-b89c-2787eff38eee",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "InternalOperation"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"7b93435f-9704-4a3a-aa5d-0855f57d216b"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"29efe3a5-047c-40a3-b89c-2787eff38eee"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.Extensibility.InternalOperationPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.Extensibility.InternalOperationPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "b0a711ba-7aed-4494-89fa-2c6a21bb3ed7",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "OutgoingUpdateLanguageCodePlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"453b85fa-66e7-48ee-bec1-6dc0a0e0f8f0"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"b0a711ba-7aed-4494-89fa-2c6a21bb3ed7"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.OutgoingUpdateLanguageCodePlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.OutgoingUpdateLanguageCodePlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "217b0ad5-f197-4fe2-99e4-48cfc80af2f3",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "AddDefaultsPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"d8b7d34e-6318-4547-b7f2-09d1ae6d8a87"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"217b0ad5-f197-4fe2-99e4-48cfc80af2f3"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.AddDefaultsPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.AddDefaultsPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [
+        {
+          "_images": [],
+          "LogicalName": "sdkmessageprocessingstep",
+          "SdkMessageFilterPrimaryObjectTypeCode": "queueitem",
+          "SdkMessageFilterSecondaryObjectTypeCode": "none",
+          "Id": "fa0ae646-c574-4543-99d8-02e3915e7c12",
+          "Attributes": [
+            {
+              "Key": "invocationsource",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+            },
+            {
+              "Key": "stage",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":50}}
+            },
+            {
+              "Key": "customizationlevel",
+              "Value": {"$type":"System.Int32","$value":0}
+            },
+            {
+              "Key": "createdon",
+              "Value": "2016-05-03T16:30:57Z"
+            },
+            {
+              "Key": "statecode",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+            },
+            {
+              "Key": "sdkmessagefilterid",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"f6d91a8e-2ff0-4a82-8cf5-61583652edb8"},"LogicalName":"sdkmessagefilter","KeyAttributes":[]}
+            },
+            {
+              "Key": "plugintypeid",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"871d0a38-edfe-454b-bb9f-52e3308600ae"},"LogicalName":"sdkmessagefilter","Name":"QueueItemCreatePostOperationPlugin","KeyAttributes":[]}
+            },
+            {
+              "Key": "rank",
+              "Value": {"$type":"System.Int32","$value":1}
+            },
+            {
+              "Key": "sdkmessageid",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"9ebdbb1b-ea3e-db11-86a7-000a3a5473e8"},"LogicalName":"sdkmessage","Name":"Create","KeyAttributes":[]}
+            },
+            {
+              "Key": "asyncautodelete",
+              "Value": {"$type":"System.Boolean","$value":false}
+            },
+            {
+              "Key": "name",
+              "Value": "QueueItemCreatePostOperationPlugin"
+            },
+            {
+              "Key": "sdkmessageprocessingstepid",
+              "Value": {"$type":"System.Guid","$value":"fa0ae646-c574-4543-99d8-02e3915e7c12"}
+            },
+            {
+              "Key": "solutionid",
+              "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+            },
+            {
+              "Key": "ismanaged",
+              "Value": {"$type":"System.Boolean","$value":true}
+            },
+            {
+              "Key": "ishidden",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.BooleanManagedProperty, Microsoft.Xrm.Sdk","Value":{"$type":"System.Boolean","$value":true},"CanBeChanged":{"$type":"System.Boolean","$value":true},"ManagedPropertyLogicalName":"ishidden"}
+            },
+            {
+              "Key": "supporteddeployment",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+            },
+            {
+              "Key": "mode",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+            },
+            {
+              "Key": "introducedversion",
+              "Value": "6.1.0.0"
+            },
+            {
+              "Key": "sdkmessageprocessingstepidunique",
+              "Value": {"$type":"System.Guid","$value":"0fe4f507-4b7d-4621-b3d2-320410768820"}
+            },
+            {
+              "Key": "modifiedby",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+            },
+            {
+              "Key": "statuscode",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+            },
+            {
+              "Key": "iscustomizable",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.BooleanManagedProperty, Microsoft.Xrm.Sdk","Value":{"$type":"System.Boolean","$value":false},"CanBeChanged":{"$type":"System.Boolean","$value":true},"ManagedPropertyLogicalName":"iscustomizableanddeletable"}
+            },
+            {
+              "Key": "modifiedon",
+              "Value": "2016-05-03T16:49:08Z"
+            },
+            {
+              "Key": "componentstate",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+            },
+            {
+              "Key": "eventhandler",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"871d0a38-edfe-454b-bb9f-52e3308600ae"},"LogicalName":"plugintype","Name":"Microsoft.Crm.ObjectModel.QueueItemCreatePostOperationPlugin","KeyAttributes":[]}
+            },
+            {
+              "Key": "createdonbehalfby",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+            },
+            {
+              "Key": "createdby",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+            },
+            {
+              "Key": "organizationid",
+              "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+            },
+            {
+              "Key": "canusereadonlyconnection",
+              "Value": {"$type":"System.Boolean","$value":false}
+            }
+          ],
+          "FormattedValues": [
+            {
+              "Key": "invocationsource",
+              "Value": "Child"
+            },
+            {
+              "Key": "stage",
+              "Value": "Post-operation (Deprecated)"
+            },
+            {
+              "Key": "customizationlevel",
+              "Value": "0"
+            },
+            {
+              "Key": "createdon",
+              "Value": "5/3/2016 9:30 AM"
+            },
+            {
+              "Key": "statecode",
+              "Value": "Enabled"
+            },
+            {
+              "Key": "rank",
+              "Value": "1"
+            },
+            {
+              "Key": "asyncautodelete",
+              "Value": "No"
+            },
+            {
+              "Key": "ismanaged",
+              "Value": "Managed"
+            },
+            {
+              "Key": "ishidden",
+              "Value": "True"
+            },
+            {
+              "Key": "supporteddeployment",
+              "Value": "Server Only"
+            },
+            {
+              "Key": "mode",
+              "Value": "Synchronous"
+            },
+            {
+              "Key": "statuscode",
+              "Value": "Enabled"
+            },
+            {
+              "Key": "iscustomizable",
+              "Value": "False"
+            },
+            {
+              "Key": "modifiedon",
+              "Value": "5/3/2016 9:49 AM"
+            },
+            {
+              "Key": "componentstate",
+              "Value": "Published"
+            },
+            {
+              "Key": "canusereadonlyconnection",
+              "Value": "No"
+            }
+          ],
+          "RelatedEntities": [],
+          "KeyAttributes": []
+        }
+      ],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "871d0a38-edfe-454b-bb9f-52e3308600ae",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "QueueItemCreatePostOperationPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"0f69ae7d-234c-4432-b2f3-c4c7e4de27ab"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"871d0a38-edfe-454b-bb9f-52e3308600ae"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.QueueItemCreatePostOperationPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.QueueItemCreatePostOperationPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "4215fa3e-4a56-49c4-9a32-6a3b8ae44b4f",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "OfflineQueuePrimaryKeyPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"928f0a68-fc66-4f79-9907-1adcc68646c4"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"4215fa3e-4a56-49c4-9a32-6a3b8ae44b4f"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.OfflineQueuePrimaryKeyPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.OfflineQueuePrimaryKeyPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "a6d4a001-517c-4d6d-9612-76f408f57331",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "DynamicPropertyValidationPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"a39db45c-7c04-476e-b240-a5a989796415"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"a6d4a001-517c-4d6d-9612-76f408f57331"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.DynamicPropertyValidationPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.DynamicPropertyValidationPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "ada9bea5-6f9d-4e15-ba37-8ea5d412fd14",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "MultiCurrencyPostOperationPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"dd9c0e17-2206-4c52-8576-9222ca08aa25"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"ada9bea5-6f9d-4e15-ba37-8ea5d412fd14"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.MultiCurrencyPostOperationPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.MultiCurrencyPostOperationPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "6237eef9-3a11-4c09-b197-96fd9cb134dd",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "SyncWorkflowExecutionPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"5e1861cc-9a10-4ab9-88ce-a2f5787a07e5"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"6237eef9-3a11-4c09-b197-96fd9cb134dd"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.SyncWorkflowExecutionPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.SyncWorkflowExecutionPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "fb4b4d3e-5816-4551-a599-9a5a2bdbd955",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "IncomingUpdateLanguageCodePlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"3167023a-8f3f-496b-9f60-16a8e7da5839"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"fb4b4d3e-5816-4551-a599-9a5a2bdbd955"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.IncomingUpdateLanguageCodePlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.IncomingUpdateLanguageCodePlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "5c4baa26-9157-4791-825c-9a832a0e9d03",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "DynamicPropertyValuesClonePlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"941026bf-8556-4d02-a488-c3f3cb2efd8b"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"5c4baa26-9157-4791-825c-9a832a0e9d03"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.DynamicPropertyValuesClonePlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.DynamicPropertyValuesClonePlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "01429bf1-f931-48c2-a64e-a81089eb3ae8",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "DynamicPropertyValuesCreationPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"e714d521-eed6-4e47-a340-f5123a676aa0"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"01429bf1-f931-48c2-a64e-a81089eb3ae8"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.DynamicPropertyValuesCreationPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.DynamicPropertyValuesCreationPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "c79b0031-e5db-47e6-a476-b1a97fcaee5d",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "WorkflowNotificationPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"1df4306b-0c8a-4382-8d65-4dd5c9c19125"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"c79b0031-e5db-47e6-a476-b1a97fcaee5d"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.Workflow.WorkflowNotificationPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.Workflow.WorkflowNotificationPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "89d6d262-2aa4-4107-a49a-b97e84d027be",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "DynamicPropertyDefinitionsClonePlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"747fa7e8-a7b8-42ed-8442-00b38cb8f6f4"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"89d6d262-2aa4-4107-a49a-b97e84d027be"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.DynamicPropertyDefinitionsClonePlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.DynamicPropertyDefinitionsClonePlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "3434fcbd-1139-461b-87ff-c21e45588439",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "DataSyncNotificationPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"33f54810-0640-450c-8a42-a7c5d004550c"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"3434fcbd-1139-461b-87ff-c21e45588439"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.DataSyncNotificationPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.DataSyncNotificationPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "6f4717f4-a5c6-4ffd-9743-cd92d6abdf49",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "AddressComputationOnReadPrePlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"8ed6abfd-6d91-402f-800d-b14ced622068"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"6f4717f4-a5c6-4ffd-9743-cd92d6abdf49"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.AddressComputationOnReadPrePlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.AddressComputationOnReadPrePlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "2f4c83f0-bb51-4819-b349-d2affbb8dd66",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "MultiCurrencyPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"d7549001-5589-4ef5-9bb0-bff944de0ff0"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"2f4c83f0-bb51-4819-b349-d2affbb8dd66"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.MultiCurrencyPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.MultiCurrencyPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "3e07fd49-329e-416e-bd34-f315e149c471",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "VerificationPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"9607d3ad-dc66-41f2-a7c2-13537ba2ff7d"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"3e07fd49-329e-416e-bd34-f315e149c471"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.Asynchronous.BulkMailVerificationPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.Asynchronous.BulkMailVerificationPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "c89ea120-2c37-11e1-b040-f4ce462d9b94",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "OfflineQueueCapturePlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"42853d47-4fbb-4f3c-a0d0-bd4b84ca8224"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"c89ea120-2c37-11e1-b040-f4ce462d9b94"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.OfflineQueueCapturePlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.OfflineQueueCapturePlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "7f89e5ba-7c1c-435b-b036-f4ff6a55f2b2",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "TargetAttributeValidationPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"b3d357e4-960a-4830-9b55-19ad9dfadfab"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"7f89e5ba-7c1c-435b-b036-f4ff6a55f2b2"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.ObjectModel.TargetAttributeValidationPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.ObjectModel.TargetAttributeValidationPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    },
+    {
+      "_steps": [],
+      "LogicalName": "plugintype",
+      "PluginClassType": 1,
+      "ConfigurationIsSupplied": true,
+      "Id": "2a5f03d7-3884-48ea-8c99-f736336ef59c",
+      "Attributes": [
+        {
+          "Key": "minor",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "ismanaged",
+          "Value": {"$type":"System.Boolean","$value":true}
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "modifiedonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "assemblyname",
+          "Value": "Microsoft.Crm.ObjectModel"
+        },
+        {
+          "Key": "createdonbehalfby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+        },
+        {
+          "Key": "publickeytoken",
+          "Value": "31bf3856ad364e35"
+        },
+        {
+          "Key": "friendlyname",
+          "Value": "AsyncOperationsPlugin"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "organizationid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+        },
+        {
+          "Key": "createdby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "pluginassemblyid",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"},"LogicalName":"pluginassembly","Name":"Microsoft.Crm.ObjectModel","KeyAttributes":[]}
+        },
+        {
+          "Key": "plugintypeidunique",
+          "Value": {"$type":"System.Guid","$value":"a72afb82-421e-4466-a2ac-db393fb1e131"}
+        },
+        {
+          "Key": "componentstate",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+        },
+        {
+          "Key": "major",
+          "Value": {"$type":"System.Int32","$value":0}
+        },
+        {
+          "Key": "plugintypeid",
+          "Value": {"$type":"System.Guid","$value":"2a5f03d7-3884-48ea-8c99-f736336ef59c"}
+        },
+        {
+          "Key": "culture",
+          "Value": "neutral"
+        },
+        {
+          "Key": "modifiedby",
+          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+        },
+        {
+          "Key": "version",
+          "Value": "0.0.0.0"
+        },
+        {
+          "Key": "typename",
+          "Value": "Microsoft.Crm.Asynchronous.AsyncOperationPlugin"
+        },
+        {
+          "Key": "solutionid",
+          "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": {"$type":"System.Boolean","$value":false}
+        },
+        {
+          "Key": "createdon",
+          "Value": "2016-05-03T16:30:28Z"
+        },
+        {
+          "Key": "name",
+          "Value": "Microsoft.Crm.Asynchronous.AsyncOperationPlugin"
+        }
+      ],
+      "FormattedValues": [
+        {
+          "Key": "minor",
+          "Value": "0"
+        },
+        {
+          "Key": "ismanaged",
+          "Value": "Managed"
+        },
+        {
+          "Key": "modifiedon",
+          "Value": "5/3/2016 9:30 AM"
+        },
+        {
+          "Key": "customizationlevel",
+          "Value": "0"
+        },
+        {
+          "Key": "componentstate",
+          "Value": "Published"
+        },
+        {
+          "Key": "major",
+          "Value": "0"
+        },
+        {
+          "Key": "isworkflowactivity",
+          "Value": "No"
+        },
+        {
+          "Key": "createdon",
+          "Value": "5/3/2016 9:30 AM"
+        }
+      ],
+      "RelatedEntities": [],
+      "KeyAttributes": []
+    }
+  ],
+  "LogicalName": "pluginassembly",
+  "Id": "a8243db5-fbf7-4637-881e-d635ca99269c",
+  "Attributes": [
+    {
+      "Key": "organizationid",
+      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"0d71ecaf-4b11-e611-80c6-000d3a001884"},"LogicalName":"organization","KeyAttributes":[]}
+    },
+    {
+      "Key": "componentstate",
+      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+    },
+    {
+      "Key": "solutionid",
+      "Value": {"$type":"System.Guid","$value":"fd140aad-4df4-11dd-bd17-0019b9312238"}
+    },
+    {
+      "Key": "modifiedonbehalfby",
+      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+    },
+    {
+      "Key": "introducedversion",
+      "Value": "5.0.0.0"
+    },
+    {
+      "Key": "publickeytoken",
+      "Value": "31bf3856ad364e35"
+    },
+    {
+      "Key": "createdonbehalfby",
+      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"3003b35e-bb2c-448b-a1b0-b6934f66a7ef"},"LogicalName":"systemuser","Name":"SYSTEM","KeyAttributes":[]}
+    },
+    {
+      "Key": "customizationlevel",
+      "Value": {"$type":"System.Int32","$value":0}
+    },
+    {
+      "Key": "ismanaged",
+      "Value": {"$type":"System.Boolean","$value":true}
+    },
+    {
+      "Key": "pluginassemblyid",
+      "Value": {"$type":"System.Guid","$value":"a8243db5-fbf7-4637-881e-d635ca99269c"}
+    },
+    {
+      "Key": "minor",
+      "Value": {"$type":"System.Int32","$value":0}
+    },
+    {
+      "Key": "pluginassemblyidunique",
+      "Value": {"$type":"System.Guid","$value":"24696823-8ff3-4179-9982-299d7833faf3"}
+    },
+    {
+      "Key": "major",
+      "Value": {"$type":"System.Int32","$value":0}
+    },
+    {
+      "Key": "sourcetype",
+      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":2}}
+    },
+    {
+      "Key": "isolationmode",
+      "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+    },
+    {
+      "Key": "culture",
+      "Value": "neutral"
+    },
+    {
+      "Key": "modifiedby",
+      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+    },
+    {
+      "Key": "version",
+      "Value": "0.0.0.0"
+    },
+    {
+      "Key": "ishidden",
+      "Value": {"$type":"Microsoft.Xrm.Sdk.BooleanManagedProperty, Microsoft.Xrm.Sdk","Value":{"$type":"System.Boolean","$value":true},"CanBeChanged":{"$type":"System.Boolean","$value":true},"ManagedPropertyLogicalName":"ishidden"}
+    },
+    {
+      "Key": "modifiedon",
+      "Value": "2016-05-03T16:30:28Z"
+    },
+    {
+      "Key": "createdon",
+      "Value": "2016-05-03T16:30:28Z"
+    },
+    {
+      "Key": "name",
+      "Value": "Microsoft.Crm.ObjectModel"
+    },
+    {
+      "Key": "createdby",
+      "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"38fc19f9-4b11-e611-80c6-000d3a001884"},"LogicalName":"systemuser","Name":"Steven Weinberger","KeyAttributes":[]}
+    }
+  ],
+  "FormattedValues": [
+    {
+      "Key": "componentstate",
+      "Value": "Published"
+    },
+    {
+      "Key": "customizationlevel",
+      "Value": "0"
+    },
+    {
+      "Key": "ismanaged",
+      "Value": "Managed"
+    },
+    {
+      "Key": "minor",
+      "Value": "0"
+    },
+    {
+      "Key": "major",
+      "Value": "0"
+    },
+    {
+      "Key": "sourcetype",
+      "Value": "Normal"
+    },
+    {
+      "Key": "isolationmode",
+      "Value": "None"
+    },
+    {
+      "Key": "ishidden",
+      "Value": "True"
+    },
+    {
+      "Key": "modifiedon",
+      "Value": "5/3/2016 9:30 AM"
+    },
+    {
+      "Key": "createdon",
+      "Value": "5/3/2016 9:30 AM"
+    }
+  ],
+  "RelatedEntities": [],
+  "KeyAttributes": []
+}

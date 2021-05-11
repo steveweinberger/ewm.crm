@@ -1,0 +1,50 @@
+<visualization>
+  <visualizationid>{33c444f6-9416-404f-b261-6850651513dc}</visualizationid>
+  <name>Lead Generation Rate</name>
+  <description>Shows the number of Leads generated in last 5 months.</description>
+  <primaryentitytypecode>lead</primaryentitytypecode>
+  <datadescription>
+    <datadefinition>
+      <fetchcollection>
+        <fetch mapping="logical" count="5" aggregate="true">
+          <entity name="lead">
+            <attribute name="leadid" aggregate="countcolumn" alias="count_leadid" />
+            <attribute name="createdon" groupby="true" dategrouping="month" usertimezone="false" alias="createdon" />
+            <order alias="createdon" descending="false" />
+          </entity>
+        </fetch>
+      </fetchcollection>
+      <categorycollection>
+        <category>
+          <measurecollection>
+            <measure alias="count_leadid" />
+          </measurecollection>
+        </category>
+      </categorycollection>
+    </datadefinition>
+  </datadescription>
+  <presentationdescription>
+    <Chart>
+      <Series>
+        <Series IsValueShownAsLabel="True" BorderWidth="3" ChartType="Line" Color="49, 171, 204" MarkerStyle="Square" MarkerSize="9" MarkerColor="37, 128, 153"></Series>
+      </Series>
+      <ChartAreas>
+        <ChartArea BorderColor="White">
+          <AxisY LabelAutoFitMinFontSize="8" TitleForeColor="59, 59, 59" TitleFont="{0}, 10.5px" LineColor="165, 172, 181">
+            <MajorGrid LineColor="239, 242, 230" />
+            <MajorTickMark LineColor="165, 172, 181" />
+            <LabelStyle Font="{0}, 10.5px" ForeColor="59, 59, 59" />
+          </AxisY>
+          <AxisX LabelAutoFitMinFontSize="8" TitleForeColor="59, 59, 59" TitleFont="{0}, 10.5px" LineColor="165, 172, 181">
+            <MajorGrid Enabled="False" />
+            <LabelStyle Font="{0}, 10.5px" ForeColor="59, 59, 59" />
+          </AxisX>
+        </ChartArea>
+      </ChartAreas>
+      <Titles>
+        <Title DockingOffset="-3" Font="{0}, 13px" ForeColor="59, 59, 59" Alignment="TopLeft"></Title>
+      </Titles>
+    </Chart>
+  </presentationdescription>
+  <isdefault>false</isdefault>
+</visualization>

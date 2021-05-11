@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://pidev.api.crm.dynamics.com/XRMServices/2011/Organization.svc?wsdl" filename="OrganizationService.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="https://pidev.api.crm.dynamics.com/XRMServices/2011/Organization.svc?disco" filename="Organization.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://pidev.api.crm.dynamics.com/XRMServices/2011/Organization.svc?wsdl=wsdl0" filename="Organization.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>
